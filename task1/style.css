@@ -188,11 +188,12 @@ h1 {
 
 .form {
   width: 400px;
-  padding: 20px;
+  border: 1px solid gray;
 }
 
 .form__top {
   background-color: #41a4f5;
+  padding: 10px 20px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -202,6 +203,19 @@ h1 {
   float: right;
   color: #222;
   font-size: 18px;
+}
+
+label {
+  padding: 7px 20px;
+  display: flex;
+  flex-direction: column;
+  color: #222;
+}
+
+input {
+  margin-top: 7px;
+  height: 30px;
+  color: #222;
 }
 
 /* footer */
