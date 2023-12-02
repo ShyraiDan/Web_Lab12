@@ -212,7 +212,9 @@ label {
   color: #222;
 }
 
-input {
+input,
+select,
+option {
   margin-top: 7px;
   height: 30px;
   color: #222;
