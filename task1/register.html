@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
+      <div class="header__left">
+        <h1 class="header__title">Мій особистий блог</h1>
+        <p class="header__text">Данило Ширай</p>
+      </div>
       <nav class="header__nav-bar">
         <ul class="header__list">
           <li class="header__item">
@@ -23,13 +26,24 @@
           </li>
         </ul>
       </nav>
+
+      <div class="header__right">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="./register.html">Вхід</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Реєстрація</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="main">
-      <div class="container">
-        <div class="part1">
-          <img src="logo.svg" class="part1__img" alt="" />
-          <h1>Shyrai Danylo 301-TH</h1>
-        </div>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__top">Реєстрація користувача</div>
+          <button type="submit" class="form__btn">Зареєструватись</button>
+        </form>
       </div>
     </main>
     <footer class="footer">
