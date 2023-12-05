@@ -4,6 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <h1 class="header__title">Мій особистий блог</h1>
+        <p class="header__text">Данило Ширай</p>
+      </div>
+      <nav class="header__nav-bar">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="./index.html">Home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="./skills.html">Skills</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="./git_commands.html">Git Commands</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__right">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="./register.html">Вхід</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="./register.html">Реєстрація</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="git-container">
+        <div>
+          <h2 class="git-container__title">Create a Repository</h2>
+          <ul class="git-container__list">
+            <li class="git-container__item">
+              <p class="description">From scratch -- Create a new local repository</p>
+              <p class="command">$ git init [project name]</p>
+            </li>
+            <li class="git-container__item">
+              <p class="description">Download from an existing repository</p>
+              <p class="command">$ git clone my_url</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__social">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="" class="footer__link"><span class="icon icon-instagram"></span></a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link"><span class="icon icon-telegram"></span></a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link"><span class="icon icon-twitter"></span></a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link"><span class="icon icon-linkedin"></span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__copyright"></p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

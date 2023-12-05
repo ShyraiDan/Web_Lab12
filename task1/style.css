@@ -6,7 +6,6 @@
   text-decoration: none;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-style: italic;
   text-align: justify;
 }
 @font-face {
@@ -220,6 +219,58 @@ option {
   margin-top: 7px;
   height: 30px;
   color: #222;
+}
+
+/* git_commands */
+
+.git-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 15px;
+}
+
+.git-container h2 {
+  margin-top: 10px;
+}
+
+.git-container__title {
+  color: #74b2d2;
+}
+
+.git-container__title_dark-blue {
+  color: #568ca5;
+}
+.git-container__title_green {
+  color: #88c432;
+}
+
+.git-container__title_dark-green {
+  color: #60961c;
+}
+
+.git-container__title_orange {
+  color: #f15d2b;
+}
+
+.git-container__title_red {
+  color: #bf5834;
+}
+.git-container__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.description {
+  color: black;
+}
+.command {
+  color: black;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 /* footer */
